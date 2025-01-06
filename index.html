@@ -24,7 +24,7 @@
                 $select = mysqli_query($conection,"SELECT * FROM users_system");
                 while($row = mysqli_fetch_array($select)){
                     if($NAME == $row['name'] && $PASSWORD == $row['password']){
-                        header("refresh:.9;url=ar/index.php?id=$row[id]");
+                        header("refresh:.9;url=ar/index.html?id=$row[id]");
                     }
                 }
             }
