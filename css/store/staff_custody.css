@@ -1,0 +1,68 @@
+.show-board{
+    overflow-x: inherit;
+}
+.show-board .card-info{
+    margin: 40px 0;
+    justify-content: center;
+    column-gap: 20px;
+}
+.data-info.card-info > .box {
+    height: fit-content;
+    flex-grow: 0;
+    padding: 10px;
+}
+
+.data-info.card-info > .box > .body > table{
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+.data-info.card-info > .box > .body > table > thead th{
+    border-top: none;
+}
+.data-info.card-info > .box > .body > table > tbody{
+    display: table-cell;
+}
+
+.show-board .modal-header {
+    border: none !important;
+    justify-content: flex-start;
+}
+.show-board .modal-header::before {
+    content: '';
+    background: #0056B3;
+    height: 30px;
+    width: 5px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.show-board .modal-header span {
+    color: #0056B3;
+    margin: 0 10px;
+    font-weight: 900;
+}
+.form-group{
+    text-align: justify;
+    width: fit-content;
+    padding: 0 20px;
+    display: inline-block;
+}
+.inputs-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-group > #searchInput{
+    box-shadow: none !important;
+    border-radius: 0 20px 20px 0; 
+}
+div  .select{
+    height: 38px;
+    width: 100px;
+    color: #000;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    border: none;
+}
+.select  option{
+    color: #000;
+    font-size: 16px;
+}

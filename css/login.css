@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Cairo", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    background: url(../img/background.jpg), no-repeat !important;
+    background-size: cover !important;
+}
+.desc{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0 0 0 / 50%);
+}
+
+.window {
+    max-width: 600px;
+    min-width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    background: rgba(165, 165, 165, 0.35);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.desc > .window > .login-box > .head-box img {
+    margin: 15px auto;
+    display: block;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.desc > .window > .login-box > .body-box > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.desc > .window > .login-box > .body-box > form > .form-row {
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+}
+
+.desc > .window > .login-box > .body-box > form > button {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    background: #0056B3;
+}
+
+.fa-eye-slash , .fa-eye , [fill="currentColor"]{
+    color: #8e9bb8 !important;
+    font-size: 20px;
+    position: absolute;
+    left: 25px;
+    top: 40px;
+    cursor: pointer;
+}
+
+.fa-eye-slash:hover , .fa-eye:hover , [fill="currentColor"]:hover{
+    color: #3369dc !important;
+    transition: color 0.2s ease-in;
+}
